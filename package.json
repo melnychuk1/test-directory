@@ -1,0 +1,17 @@
+{
+  "name": "handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/handlebars file.hbs -f file.js"
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.8.4",
+    "handlebars": "^4.0.12"
+  }
+}

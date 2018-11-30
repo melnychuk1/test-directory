@@ -1,0 +1,17 @@
+{
+  "name": "handlebars",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "anatolii <melnychuk.official@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/melnychuk1/test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
