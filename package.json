@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/handlebars file.hbs -f file.js"
-},
+    "compile_file": "./node_modules/.bin/handlebars templates/file.hbs -f templates/file.js",
+    "compile_content": "./node_modules/.bin/handlebars templates/content.hbs -f templates/content.js",
+    "build": "npm run compile_file && npm run compile_content"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {},
